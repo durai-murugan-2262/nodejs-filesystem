@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 app.listen(PORT, () => {
-  console.log("server started in port number...", PORT);
+  console.log("server started in port number: ", PORT);
 });
 
 // home route
